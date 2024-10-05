@@ -1,0 +1,57 @@
+/* Menu bar layout */
+.menu-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo styling */
+.menu-logo img {
+    height: 50px;
+}
+
+/* Menu items styling */
+.menu-items ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-items .menu-item {
+    margin: 0 20px;
+}
+
+.menu-items .menu-item a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.menu-items .menu-item a:hover {
+    color: #007bff;
+}
+
+/* Make the menu items spread out */
+.menu-items {
+    flex-grow: 1;
+}
+
+.menu-items ul {
+    width: 100%;
+}
+
+.menu-item {
+    flex: 1;
+    text-align: center;
+}
