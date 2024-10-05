@@ -1,0 +1,85 @@
+/* LandingPage.css */
+.landing-page {
+    font-family: 'YourFontType', sans-serif;
+}
+
+/* Hero Section */
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: #f4f4f4;
+    align-items: center;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    color: #000;
+    /* Primary font color */
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    color: #333;
+    /* Secondary font color */
+}
+
+.hero-image {
+    max-width: 40%;
+    height: auto;
+}
+
+/* Info Section */
+.info-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: #ffffff;
+    align-items: center;
+}
+
+.info-content {
+    max-width: 50%;
+}
+
+.info-image {
+    max-width: 40%;
+    height: auto;
+}
+
+/* Gallery Section */
+.gallery-section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.gallery-grid img {
+    width: 100%;
+    height: auto;
+}
+
+/* CTA Section */
+.cta-section {
+    padding: 2rem;
+    text-align: center;
+    background-color: #e0e0e0;
+}
+
+.cta-section h2 {
+    font-size: 2rem;
+    color: #000;
+}
+
+.cta-section p {
+    color: #333;
+}
